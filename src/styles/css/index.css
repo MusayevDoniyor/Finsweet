@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.MainContainer {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 92%;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .ListBtn {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  padding: 16px 20px;
+}
+header nav ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: rgb(82, 85, 96);
+}
+header nav ul li:first-child a {
+  color: rgb(11, 7, 6);
+}
+header .DonateBtn {
+  border-radius: 4px;
+  gap: 10px;
+  padding: 12px 32px;
+  background-color: rgb(29, 33, 48);
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-left: 20px;
+}
+
+.HeaderHeroSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+}
+.HeaderHeroSection .MainHeroHeading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.HeaderHeroSection .MainHeroHeading .date {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: rgb(29, 33, 48);
+}
+.HeaderHeroSection .MainHeroHeading .SectionHeading h1 {
+  width: 65%;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67.2px;
+  color: rgb(29, 33, 48);
+  margin: 0 auto;
+}
+.HeaderHeroSection .HeaderHeroSection .SectionText p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  align-items: center;
+  color: rgb(82, 85, 96);
+}
+.HeaderHeroSection .sectionImg {
+  margin: 60px 0;
+}
+
+.textContainer {
+  width: 76%;
+  height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.TextContainer-paragraph1,
+.TextContainer-paragraph3,
+.TextContainer-list li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: rgb(82, 85, 96);
+}
+
+.TextContainer-list li {
+  margin-left: 18px;
+}
+
+.TextContainer-heading1 {
+  padding-bottom: 25px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  color: rgb(29, 33, 48);
+}
+
+.TextContainer-heading2,
+.TextContainer-heading3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: rgb(29, 33, 48);
+  padding: 25px 0;
+}
+
+/*# sourceMappingURL=index.css.map */
